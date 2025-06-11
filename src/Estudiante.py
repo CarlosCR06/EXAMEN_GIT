@@ -111,11 +111,4 @@ class Estudiante:
         self.__apellidos = value
         
     def __str__(self) -> str:
-            """
-            Método que devuelve una representación en cadena del estudiante.
-
-            :return: Una cadena con la información del estudiante.
-            """
-            return f"Estudiante: {self.nombre} {self.apellidos}, NIF: {self.nif}, Curso: {self.curso}"
-
-    Añadido
+        return f"Estudiante: {self.nombre} {self.apellidos}, NIF: {self.nif}, Curso: {self.curso}"    
