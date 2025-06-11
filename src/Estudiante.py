@@ -112,3 +112,5 @@ class Estudiante:
         
     def __str__(self) -> str:
         return f"Estudiante: {self.nombre} {self.apellidos}, NIF: {self.nif}, Curso: {self.curso}"    
+    
+    .
